@@ -1,0 +1,500 @@
+{
+    "rosters": [
+      {
+        "name": "ACX",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks",
+        "demoRequired": "No",
+        "notes": "Sign up to audition; Books distributed on Audible, Amazon, and iTunes; STRONGLY suggest ensuring that job posters have rights to audiobook",
+        "link": "https://www.acx.com/"
+      },
+      {
+        "name": "AhabTalent",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks",
+        "demoRequired": "No",
+        "notes": "Sign up for audition matches to be emailed to you",
+        "link": "https://www.ahabtalent.com/"
+      },
+      {
+        "name": "DreamVoices",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks, Commercial",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Narration demo and/or commercial demo required; Looking to grow a diverse roster",
+        "link": "https://www.dreamempirefilms.com/voiceoversubmissions"
+      },
+      {
+        "name": "Ear-Reality",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Interactive Audiobooks",
+        "demoRequired": "No",
+        "notes": "BASED IN GERMANY; Record their sample script and upload; Stories distributed on Amazon Alexa, Google Assistant and Samsung Bixby",
+        "link": "https://ear-reality.com/join-us/"
+      },
+      {
+        "name": "Findaway Voices",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks",
+        "demoRequired": "No",
+        "notes": "Sign up, create a profile, auditions will be sent to you based on profile and voice specifications",
+        "link": "https://findawayvoices.com/narrators"
+      },
+      {
+        "name": "Graphic Audio",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks/Audio Drama (full cast)",
+        "demoRequired": "Yes (Character)",
+        "notes": "Fill out the Google form, and the casting directors will review the submission within 1-2 months; 'Particular consideration will be given to animation and interactive demos that highlight acting and dialect work.'",
+        "link": "https://graphicaudio.zendesk.com/hc/en-us/articles/200766607-I-m-a-voice-actor-and-I-m-interested-in-working-for-GraphicAudio-"
+      },
+      {
+        "name": "Royal Guard Publishing",
+        "resourceType": "Audiobook Casting Database",
+        "workType": "Audiobooks",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "See submission information under 'Narrator'; requests samples, website link, rates, and comfort level with adult content",
+        "link": "https://royalguardpublishing.com/submissions/"
+      },
+      {
+        "name": "GoVoices",
+        "resourceType": "Casting Website",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Fill out form and submit up to 3 demos. Requires information about home studio and/or local studio, and union status",
+        "link": "https://www.govoices.com/talent-signup/"
+      },
+      {
+        "name": "Voice Crafters",
+        "resourceType": "Casting Website",
+        "workType": "Commercial",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "US AND UK TALENT NOT PERMITTED at this time; requires 5+ years of commercial experience",
+        "link": "https://www.voicecrafters.com/#talent_submission_section"
+      },
+      {
+        "name": "Voice Talent Online",
+        "resourceType": "Casting Website",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN THE UK; Fill out form and they will follow up requesting more info; Demos likely required",
+        "link": "https://www.voicetalentonline.com/join/"
+      },
+      {
+        "name": "Voice Talent Warehouse",
+        "resourceType": "Casting Website",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Upload any demos you may have via their form; click 'Interested in Joining our Roster?'",
+        "link": "https://voicetalentwarehouse.com/contact/"
+      },
+      {
+        "name": "VoiceProductions",
+        "resourceType": "Casting Website",
+        "workType": "Variety—commercial, narration, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN BELGIUM; profile will need to be accepted in order to be provided with direct bookings (no auditions); asks for a variety of demos but requires at least three",
+        "link": "https://www.voiceproductions.com/en/registration-voice-actor"
+      },
+      {
+        "name": "Voquent",
+        "resourceType": "Casting Website",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Sign up to receive auditions based on profile and voice specifications. Optional paid features.",
+        "link": "https://www.voquent.com/"
+      },
+      {
+        "name": "Casting Call Club - Discord",
+        "resourceType": "Discord Server",
+        "workType": "Fan projects, original works",
+        "demoRequired": "No",
+        "notes": "Requires Discord. Great for indie projects! Server has a great community",
+        "link": "https://t.co/WMzQA5iVro"
+      },
+      {
+        "name": "DevTalk",
+        "resourceType": "Discord Server",
+        "workType": "Visual Novels",
+        "demoRequired": "No",
+        "notes": "Discord required; Great for Visual Novel jams & passion projects; Doesn't require demo, but some devs will ask for them",
+        "link": "https://discord.com/invite/sWtQyxPBke?"
+      },
+      {
+        "name": "Voice Acting Club (VAC) - Discord",
+        "resourceType": "Discord Server",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Requires Discord; Great for indie projects & welcoming community!",
+        "link": "https://t.co/Z4GZv91vS2"
+      },
+      {
+        "name": "produb",
+        "resourceType": "Dubbing App",
+        "workType": "Dubbing",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Requires app to be downloaded on your mobile device; Your application must be approved to submit to available jobs; Samples or demos required in order for your application to be approved",
+        "link": "https://produb.app/"
+      },
+      {
+        "name": "Online Voice Actor Affiliation",
+        "resourceType": "Facebook Group",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Requires Facebook; FB group by Morgan Berry",
+        "link": "https://www.facebook.com/groups/OnlineVoiceActorsActresses/"
+      },
+      {
+        "name": "Voice Acting Alliance",
+        "resourceType": "Facebook Group",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Requires Facebook; FB group by Morgan Berry; great community!",
+        "link": "https://www.facebook.com/groups/voiceactingallianceunofficialgroup/"
+      },
+      {
+        "name": "Voice Acting Club (VAC) - Facebook",
+        "resourceType": "Facebook Group",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Requires Facebook; FB group by Kira Buckland & VAC; great community!",
+        "link": "https://www.facebook.com/groups/voiceactingclub/"
+      },
+      {
+        "name": "No Studio in Particular",
+        "resourceType": "Indie Studio Mailing List",
+        "workType": "Character, Narration",
+        "demoRequired": "Yes (Character)",
+        "notes": "Mailing list for No Studio in Particular; casting calls are posted to their social media, Discord, and sent to this mailing list",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScLrNPF5iM1eGiKtev29v2LO2VQH68BUvqvFa7xnCm9UVjgIQ/viewform"
+      },
+      {
+        "name": "Very Berry Studios",
+        "resourceType": "Indie Studio Mailing List",
+        "workType": "Character",
+        "demoRequired": "No",
+        "notes": "Mailing list for Very Berry Studios; casting calls are posted to their social media, Discord, and sent to this mailing list",
+        "link": "https://veryberrystudios.com/"
+      },
+      {
+        "name": "Casting Call Club - Website",
+        "resourceType": "Networking & Auditions",
+        "workType": "Fan projects, original works",
+        "demoRequired": "No",
+        "notes": "Sign up and audition; Great for indie projects and newer voice actors; Paid subscription tiers available",
+        "link": "https://www.castingcall.club/"
+      },
+      {
+        "name": "Dragonuk Connects",
+        "resourceType": "Networking & Auditions",
+        "workType": "General voiceover, on-camera, theatre",
+        "demoRequired": "No",
+        "notes": "U.S. Mid-Atlantic Region focused, but permits other regions to be selected. Demos are optional but highly suggested. Very on-camera heavy. Paid membership required to use forum, have a public profile, send and receive messages, and receive 'Special Profile Castings'",
+        "link": "https://www.dragonukconnects.com/home.php"
+      },
+      {
+        "name": "Newgrounds - Forum",
+        "resourceType": "Networking & Auditions",
+        "workType": "Fan projects, original works",
+        "demoRequired": "No",
+        "notes": "Forum for opportunities; Great for indie projects and newer voice actors",
+        "link": "https://www.newgrounds.com/bbs/forum/23"
+      },
+      {
+        "name": "Voice Acting Club (VAC)  - Forum",
+        "resourceType": "Networking & Auditions",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Forum for opportunities; great community!",
+        "link": "https://voiceacting.boards.net/"
+      },
+      {
+        "name": "Actor's Access",
+        "resourceType": "Pay-to-Play",
+        "workType": "General voiceover, on-camera, theatre",
+        "demoRequired": "No",
+        "notes": "Subscription $68/yr; Demo encouraged but not required; Check breakdowns to see if a job is voiceover or other",
+        "link": "https://actorsaccess.com/"
+      },
+      {
+        "name": "Backstage",
+        "resourceType": "Pay-to-Play",
+        "workType": "General voiceover, on-camera, theatre",
+        "demoRequired": "No",
+        "notes": "Free to join; $16/mo (billed annually), $20/mo (billed bi-annually), $25/mo",
+        "link": "https://www.backstage.com/casting/?min_age=0&max_age=100&radius=50&page=1&sort_by=newest&job_type=vo&role_type=V"
+      },
+      {
+        "name": "Bodalgo",
+        "resourceType": "Pay-to-Play",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN GERMANY; Accepts remote talent; 'Considers professionally trained actors only'; free to join; $245/yr premium",
+        "link": "https://www.bodalgo.com/en"
+      },
+      {
+        "name": "CastVoices",
+        "resourceType": "Pay-to-Play",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Free to join; $15/mo & $25/mo options. Does not affect audition order, only amount of demos and media allowed.",
+        "link": "https://castvoices.com/"
+      },
+      {
+        "name": "VO Planet",
+        "resourceType": "Pay-to-Play",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Requires subscription; $199/yr",
+        "link": "https://www.voplanet.com/cta-page/register"
+      },
+      {
+        "name": "Voice Over Market",
+        "resourceType": "Pay-to-Play",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN THE UK; Requires subscription of €50/yr; Can book a studio for you in the UK if needed. Demos strongly suggested.",
+        "link": "https://www.voiceovermarket.co.uk/registertalent"
+      },
+      {
+        "name": "Voices123",
+        "resourceType": "Pay-to-Play",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "No",
+        "notes": "Subscription tiers from $299/yr to $2k+ per year; Audition for jobs you are invited to; Demos are not required but suggested",
+        "link": "https://voice123.com/plans"
+      },
+      {
+        "name": "Lau Lapides/MCVO",
+        "resourceType": "Roster/Freelance Agent",
+        "workType": "Commercial",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Requires commercial demo; freelance agency--will send auditions and represent if the job is booked; REQUIRES SOURCE CONNECT STANDARD",
+        "link": "https://laulapidescompany.com/service/audition-submission-information/"
+      },
+      {
+        "name": "Amazing Voice",
+        "resourceType": "Studio Roster",
+        "workType": "IVR, Narration",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Requires commercial demo; 'We are not a Voice Talent Directory; our roster is limited to a select number of top professionals in the voiceover industry'",
+        "link": "https://www.amazingvoice.com/voice-talent-application"
+      },
+      {
+        "name": "Blend Voices (previously GM Voices)",
+        "resourceType": "Studio Roster",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Submission form via the website. Requires RAW studio sample. They expect a few years of experience. OFFERS AI VOICE SERVICES TO THEIR CLIENTS BUT CLEARLY COMMUNICATES WITH TALENT WHICH JOBS WILL AND WILL NOT BE USED TO SYNTHESIZE AI VOICES.",
+        "link": "https://8c2l0ugidj4.typeform.com/to/LCrMeZNE?typeform-source=www.getblend.com"
+      },
+      {
+        "name": "Blue Wave",
+        "resourceType": "Studio Roster",
+        "workType": "Political voiceover",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Requires 'FULLY PRODUCED' POLITICAL demo; Not currently accepting talent but has a waitlist; see: website for how to submit",
+        "link": "https://www.bluewavevoiceover.com/faqs/"
+      },
+      {
+        "name": "CAS Music",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial, Narration",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Requires commercial demo; 'Your name should not be heard in the demo file.'",
+        "link": "https://casmusic.com/voice-over-submissions/"
+      },
+      {
+        "name": "Casting by Smile",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial & Corporate Narration",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN SWEDEN; Requires a resume; Send up to 3 demos via their submission form",
+        "link": "https://www.studiosmile.se/contact"
+      },
+      {
+        "name": "Creative Media Design NYC",
+        "resourceType": "Studio Roster",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Can upload multiple demos; requires SC-Standard, ipDTL, Phone Patch, or ISDN",
+        "link": "https://www.cmdnyc.com/new-talent-form/"
+      },
+      {
+        "name": "Deyan Audio",
+        "resourceType": "Studio Roster",
+        "workType": "Audiobooks",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Demo requirement not indicated but suggested",
+        "link": "https://deyanaudio.squarespace.com/contact"
+      },
+      {
+        "name": "Ear Works Media",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial, Narration",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Requires commercial demo and Source Connect Standard OR Pro; Can record in-studio if located in the Virginia Beach, USA area; Requires quick turnarounds and open weekday availability",
+        "link": "https://www.earworks.com/voice-talent-application"
+      },
+      {
+        "name": "Encore Voices",
+        "resourceType": "Studio Roster",
+        "workType": "Dubbing",
+        "demoRequired": "Yes (Character)",
+        "notes": "Submit through the account system on their website",
+        "link": "https://talent.encorevoices.com/talent-registration/"
+      },
+      {
+        "name": "Halp Network",
+        "resourceType": "Studio Roster",
+        "workType": "Video Games, PCAP/MOCAP",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "No demo required in submission, but should have a character demo on your website.",
+        "link": "https://airtable.com/shrJEs3NswRmy3pZ8"
+      },
+      {
+        "name": "Holdcom",
+        "resourceType": "Studio Roster",
+        "workType": "IVR, Narration",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Record their script to submit; Requires 24-hour turnaround fulfillment AND home studio; Scripts in English, Spanish, Italian, German, and French",
+        "link": "https://www.holdcom.com/voice-talent-audition/"
+      },
+      {
+        "name": "IYUNO-SDI",
+        "resourceType": "Studio Roster",
+        "workType": "Dubbing",
+        "demoRequired": "Yes (Character)",
+        "notes": "Requires character/animation demo; video game demos accepted as a supplement; Google Form Link is their 2022 submission form that was publicly shared",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSeEE3aYQUhj23pZGlh_JAWaY-WuU-9s1PplwZEBnwHriYoFTw/viewform"
+      },
+      {
+        "name": "khōréō",
+        "resourceType": "Studio Roster",
+        "workType": "Audiobooks/Podcasts",
+        "demoRequired": "No",
+        "notes": "No experience or demo required; Requests confirmation that the applicant identifies as an immigrant/diaspora actor",
+        "link": "https://www.khoreomag.com/voice-actors/"
+      },
+      {
+        "name": "Kocha Sound",
+        "resourceType": "Studio Roster",
+        "workType": "Character (Animation, Anime, etc)",
+        "demoRequired": "Yes (Character)",
+        "notes": "Requires character/animation demo; click 'submit here'; NO REPEAT SUBMISSIONS!",
+        "link": "http://www.kochasound.com/contact-us/"
+      },
+      {
+        "name": "Lotas Productions",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial, Promo",
+        "demoRequired": "No",
+        "notes": "To apply, navigate 'Voices' > 'Submit your demo'. SUBMISSION LINK HAS BEEN REMOVED AT THIS TIME",
+        "link": "https://www.lotasproductions.com/"
+      },
+      {
+        "name": "Network Nexus Studios",
+        "resourceType": "Studio Roster",
+        "workType": "Variety—audiobooks, commercial, character, etc",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "To apply, navigate 'Careers' > 'Talent Pool Application Form'",
+        "link": "https://www.networknexusstudios.com/"
+      },
+      {
+        "name": "ProComm Voices",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "Requires commercial demo; REQUIRES SOURCE CONNECT STANDARD",
+        "link": "https://www.procommvoices.com/request-to-join-the-procomm-roster/"
+      },
+      {
+        "name": "Sound Cadence Studios",
+        "resourceType": "Studio Roster",
+        "workType": "Character (Animation, Anime, etc)",
+        "demoRequired": "Yes (Character)",
+        "notes": "Requires character/animation demo; click 'New Actor Submission Form'; DO NOT RESUBMIT SAME INFO!",
+        "link": "https://www.soundcadencestudios.com/#Contact"
+      },
+      {
+        "name": "Studio Center",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial, Promo",
+        "demoRequired": "Yes (Commercial)",
+        "notes": "NOTE: EXCLUSIVE ROSTER. You are not allowed to be on any other rosters, P2P websites, or receive auditions from agents or managers. NOT CURRENTLY ACCEPTING APPLICATIONS",
+        "link": "https://studiocenter.com/about/jobs/voice-talent-application"
+      },
+      {
+        "name": "Studio Coattails",
+        "resourceType": "Studio Roster",
+        "workType": "Character (Visual Novels, Videogames)",
+        "demoRequired": "Yes (Character)",
+        "notes": "Fill out google form. Requires character demo.",
+        "link": "https://studiocoattails.com/services/for-voice-talent/"
+      },
+      {
+        "name": "Studio Nano",
+        "resourceType": "Studio Roster",
+        "workType": "Character (Animation, Anime, etc)",
+        "demoRequired": "Yes (Character)",
+        "notes": "Requires character/animation demo",
+        "link": "https://forms.zohopublic.com/michelle50/form/VoiceActorSubmissions/formperma/kRHvYFHRgVFXicZI1xhNTCdzNTJx_ULHmXywnfADR0M"
+      },
+      {
+        "name": "Studio Topaz / Tiger Mesa",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial & Character",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "PREVIOUSLY EXTRA TERRIBLE; has a script for submission or demos can be submitted",
+        "link": "https://www.tigermesa.com/talent-submissions"
+      },
+      {
+        "name": "TYDEF Studios",
+        "resourceType": "Studio Roster",
+        "workType": "Audiobooks",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Fill out form, submit up to 3 narration samples and headshot.",
+        "link": "https://www.tydefstudios.com/actor-roster-signup"
+      },
+      {
+        "name": "Voiceover Cafe",
+        "resourceType": "Studio Roster",
+        "workType": "Commercial, Corporate, and Character",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "BASED IN UK; Localization studio; Email demos and rates to hello@voiceover.cafe NOT CURRENTLY ACCEPTING US TALENT",
+        "link": "http://www.voiceover.cafe/about-us/voiceover-service/talent-submissions-join-our-2022-freelance-voiceover-roster/"
+      },
+      {
+        "name": "VSI Group",
+        "resourceType": "Studio Roster",
+        "workType": "Dubbing",
+        "demoRequired": "No",
+        "notes": "Demo not required, but highly suggested. Form asks for a sample of your work; click 'Freelancers'",
+        "link": "https://www.vsi.tv/contact#c1743"
+      },
+      {
+        "name": "Zoo Digital",
+        "resourceType": "Studio Roster",
+        "workType": "Dubbing",
+        "demoRequired": "Yes (Other/See Notes)",
+        "notes": "Requests demos, does not specify what kind",
+        "link": "https://www.zoodigital.com/freelance-vacancies/voice-actor/"
+      },
+      {
+        "name": "No Studio in Particular - Twitter",
+        "resourceType": "Twitter Account",
+        "workType": "Character, Narration",
+        "demoRequired": "No",
+        "notes": "Public casting calls sourced on behalf of clients, freelance service; has a community for voice actors",
+        "link": "https://twitter.com/NSIPStudio"
+      },
+      {
+        "name": "VA Casting Call RT",
+        "resourceType": "Twitter Account",
+        "workType": "Retweets paid casting calls on Twitter",
+        "demoRequired": "No",
+        "notes": "Turn on Tweet notifications to be pinged when a paid casting call is retweeted",
+        "link": "https://twitter.com/VACastingRT"
+      }
+    ]
+}
