@@ -37,8 +37,7 @@ const Cards = ({ data }) => {
                 || search.toLowerCase() === '' ? entry : entry.workType.toLowerCase().includes(search)
                 || search.toLowerCase() === '' ? entry : entry.demoRequired.toLowerCase().includes(search)
                 || search.toLowerCase() === '' ? entry : entry.notes.toLowerCase().includes(search))
-                && (entry.resourceType.toLowerCase().includes(resourceType))
-                ;
+                && (entry.resourceType.toLowerCase().includes(resourceType));
           }).map(entry => (
               <div key={entry.name} className="flex-grow p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{entry.name}</h5>
