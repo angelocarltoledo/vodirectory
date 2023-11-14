@@ -27,6 +27,7 @@ const Nav = () => {
               <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/directors">Directors</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/producers">Demo Producers</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/rosters">Rosters and Databases</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/education">Education</Link>
               {/* <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/rosters">Classes/Schools</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/rosters">Coaches</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/rosters">Agencies</Link> */}
@@ -74,6 +75,7 @@ const Nav = () => {
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/directors">Directors</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/producers">Producers</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Rosters and Databases</Link>
+              <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/education">Education</Link>
               {/* <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Classes/Schools</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Coaches</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Agencies</Link> */}
