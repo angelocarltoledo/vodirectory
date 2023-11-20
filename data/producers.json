@@ -62,7 +62,7 @@
       },
       {
         "name": "Toon House",
-        "twitter": "N/A",
+        "twitter": "",
         "link": "http://toonhouse.com/our-work"
       },
       {
@@ -72,8 +72,58 @@
       },
       {
         "name": "VoiceForward",
-        "twitter": "N/A",
+        "twitter": "",
         "link": "http://voiceforward.com/about/"
+      },
+      {
+        "name": "Studio Topaz",
+        "twitter": "@Studio__Topaz",
+        "link": "https://www.studiotopaz.com/"
+      },
+      {
+        "name": "Labyrinth Sound",
+        "twitter": "@LabyrinthDemos",
+        "link": "https://labyrinthsounddemos.com/"
+      },
+      {
+        "name": "LemonToast Media Group ",
+        "twitter": "@LemonToastMedia",
+        "link": "https://lemontoastmedia.com/"
+      },
+      {
+        "name": "Sami Chen",
+        "twitter": "@SSDemoServices",
+        "link": "https://www.samichen.com/services"
+      },
+      {
+        "name": "Elley Ray Hennessey",
+        "twitter": "@Elley_Ray",
+        "link": "https://www.elleyray.com/teaching"
+      },
+      {
+        "name": "Immersed Productions",
+        "twitter": "@ImmersedProd",
+        "link": "https://www.immersedproductions.com/"
+      },
+      {
+        "name": "Joe Loesch",
+        "twitter": "@JoeLoesch",
+        "link": "https://www.joeloesch.com/demos"
+      },
+      {
+        "name": "Mick Wingert",
+        "twitter": "@MickWingert",
+        "link": "https://www.mickwingert.com/demo-production.html"
+      },
+      {
+        "name": "V.O GYM",
+        "twitter": "",
+        "link": "https://vogym.co.uk/?page_id=258"
+      },
+      {
+        "name": "Dream Bigg",
+        "twitter": "",
+        "link": "https://www.dreambigg.com/self-study"
       }
     ]
   }
