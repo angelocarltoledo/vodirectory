@@ -3,7 +3,7 @@
       {
         "name": "Dave Walsh",
         "specialty": "Commercial/Promo/Narration",
-        "price": "325 (1 hr)",
+        "price": "325",
         "twitter": "",
         "notes": "",
         "link": "https://www.walshvoiceovercoaching.com/"
@@ -12,14 +12,14 @@
         "name": "Dave Bisson",
         "specialty": "Commercial",
         "twitter": "@davebisson",
-        "price": "50 (30 min), 80 (1 hr)",
+        "price": "50",
         "notes": "",
         "link": "https://davebisson.com/"
       },
       {
         "name": "Richard Horvitz",
         "specialty": "Character/Commercial",
-        "price": "",
+        "price": "0",
         "twitter": "",
         "notes": "",
         "link": "https://www.richardhorvitz.com/coaching"
@@ -27,7 +27,7 @@
       {
         "name": "Megan Fahlenbock",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "twitter": "",
         "notes": "",
         "link": "http://meganfahlenbock.com/"
@@ -35,7 +35,7 @@
       {
         "name": "Mick Wingert",
         "specialty": "",
-        "price": "145 (1 hr)",
+        "price": "145",
         "twitter": "",
         "notes": "",
         "link": "https://www.mickwingert.com/private-sessions.html"
@@ -43,7 +43,7 @@
       {
         "name": "David Sobolov",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@volobos",
         "link": "https://www.sobolov.com/demos"
@@ -51,7 +51,7 @@
       {
         "name": "Crispin Freeman",
         "specialty": "Character",
-        "price": "",
+        "price": "0",
         "notes": "Must take group class first",
         "twitter": "@CrispinFreeman",
         "link": "http://www.voiceactingmastery.com/classes/private-online-coaching"
@@ -59,7 +59,7 @@
       {
         "name": "Corina Boettger",
         "specialty": "Character",
-        "price": "",
+        "price": "0",
         "notes": "Must take group class first",
         "twitter": "@thebirdzulu",
         "link": "https://www.corinaboettger.com/contact"
@@ -67,7 +67,7 @@
       {
         "name": "Richard Di Britannia",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "twitter": "",
         "notes": "",
         "link": "https://hellovoiceover.com/"
@@ -75,7 +75,7 @@
       {
         "name": "June Yoon",
         "specialty": "Character",
-        "price": "80 (1 hr)",
+        "price": "80",
         "notes": "Beginner friendly",
         "twitter": "@JuneYoon_",
         "link": "https://www.voicemoto.com/coaching"
@@ -83,7 +83,7 @@
       {
         "name": "Elley Ray",
         "specialty": "Character/Commercial",
-        "price": "150 (1 hr 30 min)",
+        "price": "150",
         "notes": "Beginner friendly, Skype only",
         "twitter": "@Elley_Ray",
         "link": "https://www.elleyray.com/teaching"
@@ -91,7 +91,7 @@
       {
         "name": "Gina Scarpa",
         "specialty": "Character/Commercial/Narration",
-        "price": "",
+        "price": "0",
         "notes": "Beginner and child friendly",
         "twitter": "@ginascarpa",
         "link": "https://positivevoicesct.com/coaching/positively-voiceover/"
@@ -99,7 +99,7 @@
       {
         "name": "Erin Fitzgerald",
         "specialty": "Character",
-        "price": "155 (1 hr)",
+        "price": "155",
         "notes": "Beginner friendly",
         "twitter": "@ErinFitzgerald",
         "link": "https://www.erinfitzvo.com/"
@@ -107,7 +107,7 @@
       {
         "name": "Sara Secora",
         "specialty": "Character/Commercial",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@SaraSecoraVO",
         "link": "https://www.sarasecora.com/coaching"
@@ -115,7 +115,7 @@
       {
         "name": "Sara Cravens",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@ThatsSoCravens",
         "link": "https://www.saracravens.com/classes"
@@ -123,7 +123,7 @@
       {
         "name": "Sara Jane Sherman",
         "specialty": "Character",
-        "price": "150 (1 hr)",
+        "price": "150",
         "notes": "Beginner and child friendly",
         "twitter": "@sarajanesherman",
         "link": "https://www.sarajanesherman.com/classes"
@@ -131,7 +131,7 @@
       {
         "name": "Sarah Nightingale",
         "specialty": "Character/Commercial/Narration/Promo/Accents",
-        "price": "50 (30 min), 75 (1 hr), 100 (1 hr 30 min)",
+        "price": "50",
         "notes": "",
         "twitter": "@VoicesSarah",
         "link": "https://www.nightingale-voices.com/votraining"
@@ -139,7 +139,7 @@
       {
         "name": "Melissa Medina",
         "specialty": "Character/Commercial",
-        "price": "75 (1 hr)",
+        "price": "75",
         "notes": "",
         "twitter": "@melissamedinavo",
         "link": "https://hearmelissa.com/#coaching"
@@ -147,7 +147,7 @@
       {
         "name": "Aimee Smith",
         "specialty": "Character",
-        "price": "100 (1 hr)",
+        "price": "100",
         "notes": "Non-US-based talent ONLY",
         "twitter": "@AimeeSmithVA",
         "link": "https://www.aimeesmithva.com/contact"
@@ -155,7 +155,7 @@
       {
         "name": "Rhiannon Moushall",
         "specialty": "Character",
-        "price": "50 (30 min), 80 (1 hr)",
+        "price": "50",
         "notes": "",
         "twitter": "@rsmoushall",
         "link": "https://www.rhiannonmoushall.com/contact"
@@ -163,7 +163,7 @@
       {
         "name": "Erin Nicole Lundquist",
         "specialty": "Character",
-        "price": "75 (1 hr)",
+        "price": "75",
         "notes": "",
         "twitter": "@ErinLundquistVA",
         "link": "https://www.erinnicolelundquist.com/coaching"
@@ -171,7 +171,7 @@
       {
         "name": "Marin M. Miller",
         "specialty": "Character",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@marinmmillerVO",
         "link": "https://www.marinmmillervo.com/"
@@ -179,7 +179,7 @@
       {
         "name": "Brook Chalmers",
         "specialty": "Character",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@brookchalmersvo",
         "link": "https://www.brookchalmersvo.com/home/#coaching"
@@ -187,7 +187,7 @@
       {
         "name": "Richard Tatum",
         "specialty": "Character/Commercial",
-        "price": "",
+        "price": "0",
         "notes": "",
         "twitter": "@RichardTatumLA",
         "link": "https://absolutevoiceoverla.com/"
@@ -195,7 +195,7 @@
       {
         "name": "Marc Cashman",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "twitter": "",
         "notes": "",
         "link": "https://cashmancommercials.com/vo-coaching-classes/"
@@ -203,7 +203,7 @@
       {
         "name": "Debi Derryberry",
         "specialty": "",
-        "price": "275 (1 hr)",
+        "price": "275",
         "twitter": "@DebiDerryberry",
         "notes": "",
         "link": "https://www.debiderryberry.com/shop-category/vo-classes/"
@@ -211,7 +211,7 @@
       {
         "name": "Lisa Biggs",
         "specialty": "Character/Commercial",
-        "price": "",
+        "price": "0",
         "twitter": "",
         "notes": "",
         "link": "https://www.dreambigg.com/coaching"
@@ -219,7 +219,7 @@
       {
         "name": "Abbie Andrews",
         "specialty": "",
-        "price": "",
+        "price": "0",
         "twitter": "@abbieandrews93",
         "notes": "",
         "link": "https://vogym.co.uk/"
@@ -227,7 +227,7 @@
       {
         "name": "Joe Loesch",
         "specialty": "",
-        "price": "150 (1 hr)",
+        "price": "150",
         "twitter": "@JoeLoesch",
         "notes": "",
         "link": "https://www.joeloesch.com/coaching"
@@ -235,15 +235,39 @@
       {
         "name": "Deb Munro",
         "specialty": "Character/Commercial/Narration",
-        "price": "125 (1 hr)",
+        "price": "125",
         "twitter": "@DebMunroVO",
         "notes": "",
         "link": "https://debsvoice.com/deb-munro-voice-coach-extrodinaire/"
       },
       {
+        "name": "Brendan Hunter",
+        "specialty": "Character/Commercial",
+        "price": "100",
+        "twitter": "@brendan_hunter",
+        "notes": "Beginner friendly",
+        "link": "https://brendanhunter.com/"
+      },
+      {
+        "name": "Craig Lee Thomas",
+        "specialty": "Character/Commercial",
+        "price": "90",
+        "twitter": "@itsmecraiglee",
+        "notes": "",
+        "link": "https://craigleethomasvocoaching.as.me/schedule/6534ab3b"
+      },
+      {
+        "name": "Kiba Walker",
+        "specialty": "Character",
+        "price": "0",
+        "twitter": "@justkibawalker",
+        "notes": "",
+        "link": "https://www.kibawalkervoices.com/services-classes"
+      },
+      {
         "name": "Andrea Malsom",
         "specialty": "Speech Therapy",
-        "price": "",
+        "price": "0",
         "twitter": "@MyVoiceTherapy",
         "notes": "",
         "link": "https://myvoicetherapy.com/acting"
