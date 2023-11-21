@@ -1,5 +1,6 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
+import Footer from '@components/Footer';
 
 export const metadata = {
     title: "VODirectory",
@@ -11,11 +12,12 @@ const RootLayout = ({ children }) => {
     <html lang="en">
         <body className='bg-slate-500 p-5'>
             <main className="app">
-              <Nav></Nav>
+              <Nav/>
               <section className="w-full flex flex-col items-center gap-5">
                 {children}
               </section>
             </main>
+            <Footer/>
         </body>
     </html>
   )

@@ -12,8 +12,8 @@
         "name": "Dave Bisson",
         "specialty": "Commercial",
         "twitter": "@davebisson",
-        "price": "50",
-        "notes": "",
+        "price": "80",
+        "notes": "$50 (30 min session)",
         "link": "https://davebisson.com/"
       },
       {
@@ -83,8 +83,8 @@
       {
         "name": "Elley Ray",
         "specialty": "Character/Commercial",
-        "price": "150",
-        "notes": "Beginner friendly, Skype only",
+        "price": "0",
+        "notes": "Beginner friendly, Skype only, $150 (1 hr 30 min session)",
         "twitter": "@Elley_Ray",
         "link": "https://www.elleyray.com/teaching"
       },
@@ -131,8 +131,8 @@
       {
         "name": "Sarah Nightingale",
         "specialty": "Character/Commercial/Narration/Promo/Accents",
-        "price": "50",
-        "notes": "",
+        "price": "75",
+        "notes": "$50 (30 min session), $100 (1 hr 30 min session)",
         "twitter": "@VoicesSarah",
         "link": "https://www.nightingale-voices.com/votraining"
       },
@@ -148,15 +148,15 @@
         "name": "Aimee Smith",
         "specialty": "Character",
         "price": "100",
-        "notes": "Non-US-based talent ONLY",
+        "notes": "Non-US-based talent ONLY, Price is in AUD!",
         "twitter": "@AimeeSmithVA",
         "link": "https://www.aimeesmithva.com/contact"
       },
       {
         "name": "Rhiannon Moushall",
         "specialty": "Character",
-        "price": "50",
-        "notes": "",
+        "price": "80",
+        "notes": "$50 (30 min session)",
         "twitter": "@rsmoushall",
         "link": "https://www.rhiannonmoushall.com/contact"
       },
