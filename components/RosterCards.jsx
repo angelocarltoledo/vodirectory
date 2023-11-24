@@ -1,6 +1,6 @@
 "use client"
 
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useState } from 'react'
 
 const RosterCards = ({data, category}) => {
@@ -20,7 +20,7 @@ const RosterCards = ({data, category}) => {
             <span>Type:</span>
             <select className='p-1' name="resourceType" id="resourceType" onChange={event => setResourceType(event.target.value.toLowerCase())}>
                 <option value="">All</option>
-                {filterUniqueResourceTypes(data).map(entry => (
+                {filterUniqueResourceTypes(data).sort((a, b) => a.resourceType.localeCompare(b.resourceType)).map(entry => (
                     <option key={entry.resourceType} value={entry.resourceType}>{entry.resourceType}</option>
                 ))
                 }
@@ -45,9 +45,9 @@ const RosterCards = ({data, category}) => {
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Work Type: {entry.workType}</p>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Demo Required: {entry.demoRequired}</p>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Notes: {entry.notes}</p>
-                        <Link href={entry.link} target='_blank' className="inline-flex entrys-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        {/* <Link href={entry.link} target='_blank' className="inline-flex entrys-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Go to Site!
-                        </Link>
+                        </Link> */}
                     </div>
                 ))
             )}

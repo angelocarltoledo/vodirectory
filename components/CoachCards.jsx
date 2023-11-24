@@ -35,7 +35,7 @@ const CoachCards = ({data, category}) => {
             <span>Specialty:</span>
             <select className='p-1' name="specialty" id="specialty" onChange={event => setSpecialty(event.target.value.toLowerCase())}>
                 <option value="">All</option>
-                {filterUniqueSpecialties(data).map(entry => (
+                {filterUniqueSpecialties(data).sort().map(entry => (
                     <option key={entry} value={entry}>{entry}</option>
                 ))
                 }
