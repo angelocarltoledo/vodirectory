@@ -19,8 +19,7 @@ const GeneralCards = ({data, category}) => {
         {(
             data[category].filter(entry => {
             return (search.toLowerCase() === '' ? entry : entry.name.toLowerCase().includes(search)
-                || search.toLowerCase() === '' ? entry : entry.twitter.toLowerCase().includes(search)
-                || search.toLowerCase() === '' ? entry : entry.link.toLowerCase().includes(search));
+                || search.toLowerCase() === '' ? entry : entry.twitter.toLowerCase().includes(search));
             })
             .sort((a, b) => a.name.localeCompare(b.name))
             .map(entry => (
