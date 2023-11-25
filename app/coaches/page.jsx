@@ -1,7 +1,7 @@
 import CoachCards from '@components/CoachCards'
 
 const Coaches = async () => {
-  const response = await fetch(process.env.COACHES);
+  const response = await fetch(process.env.COACHES, { cache: 'no-store' });
   const sheetsData = await response.json();
   const category = Object.keys(sheetsData)[0];
   return (

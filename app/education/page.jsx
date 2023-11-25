@@ -1,7 +1,7 @@
 import GeneralCards from '@components/GeneralCards'
 
 const Education = async () => {
-  const response = await fetch(process.env.EDUCATION);
+  const response = await fetch(process.env.EDUCATION, { cache: 'no-store' });
   const sheetsData = await response.json();
   const category = Object.keys(sheetsData)[0];
   return (

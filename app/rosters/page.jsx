@@ -1,7 +1,7 @@
 import RosterCards from '@components/RosterCards'
 
 const Rosters = async () => {
-  const response = await fetch(process.env.ROSTERS);
+  const response = await fetch(process.env.ROSTERS, { cache: 'no-store' });
   const sheetsData = await response.json();
   const category = Object.keys(sheetsData)[0];
 

@@ -1,7 +1,7 @@
 import GeneralCards from '@components/GeneralCards'
 
 const Writers = async () => {
-  const response = await fetch(process.env.WRITERS);
+  const response = await fetch(process.env.WRITERS, { cache: 'no-store' });
   const sheetsData = await response.json();
   const category = Object.keys(sheetsData)[0];
 
