@@ -1,10 +1,8 @@
+import fetchData from '@utils/fetchData'
 import GeneralCards from '@components/GeneralCards'
 
 const Writers = async () => {
-  const response = await fetch(process.env.WRITERS, { cache: 'no-store' });
-  const sheetsData = await response.json();
-  const category = Object.keys(sheetsData)[0];
-
+  const [sheetsData, category] = await fetchData('writers');
   return (
     <>
       <h1 className='text-2xl font-bold text-center'>Writers</h1>

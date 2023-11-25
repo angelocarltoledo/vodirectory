@@ -1,9 +1,9 @@
+import fetchData from '@utils/fetchData'
 import CoachCards from '@components/CoachCards'
 
 const Coaches = async () => {
-  const response = await fetch(process.env.COACHES, { cache: 'no-store' });
-  const sheetsData = await response.json();
-  const category = Object.keys(sheetsData)[0];
+  const [sheetsData, category] = await fetchData('coaches');
+
   return (
     <>
       <h1 className='text-2xl font-bold text-center'>Coaches</h1>

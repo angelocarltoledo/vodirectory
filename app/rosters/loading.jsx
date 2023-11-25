@@ -1,3 +1,7 @@
+import Loader from "@components/Loader";
+
 export default function Loading() {
-    return <p>Loading Rosters...</p>
+    return (
+        <Loader category='Rosters'/>
+    )
 }
