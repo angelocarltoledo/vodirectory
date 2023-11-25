@@ -27,7 +27,7 @@ const Nav = () => {
               <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/producers">Demo Producers</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/education">Education</Link>
               <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/coaches">Coaches</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/rosters">Rosters and Databases</Link>
+              {/* <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/rosters">Rosters and Databases</Link> */}
 
             </div>
           </div>
@@ -73,7 +73,7 @@ const Nav = () => {
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/producers">Producers</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/education">Education</Link>
               <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/coaches">Coaches</Link>
-              <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Rosters and Databases</Link>
+              {/* <Link className="pl-5 py-1 block hover:bg-yellow-400" href="/rosters">Rosters and Databases</Link> */}
           </div>
         </div>
       )}

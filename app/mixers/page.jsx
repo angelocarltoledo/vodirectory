@@ -1,8 +1,9 @@
-import fetchData from '@utils/fetchData'
 import GeneralCards from '@components/GeneralCards'
 
 const Mixers = async () => {
-  const [sheetsData, category] = await fetchData('mixers');
+  const response = await fetch(process.env.MIXERS, { cache: 'no-store' });
+  const sheetsData = await response.json();
+  const category = Object.keys(sheetsData)[0];
 
   return (
     <>
