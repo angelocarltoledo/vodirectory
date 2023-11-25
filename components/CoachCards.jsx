@@ -14,7 +14,7 @@ const CoachCards = ({data, category}) => {
             return (search.toLowerCase() === '' ? entry : entry.name.toLowerCase().includes(search)
                 || search.toLowerCase() === '' ? entry : entry.twitter.toLowerCase().includes(search)
                 || search.toLowerCase() === '' ? entry : entry.specialty.toLowerCase().includes(search)
-                || search.toLowerCase() === '' ? entry : entry.price.toLowerCase().includes(search)
+                // || search.toLowerCase() === '' ? entry : entry.price.toLowerCase().includes(search)
                 || search.toLowerCase() === '' ? entry : entry.notes.toLowerCase().includes(search))
                 && (entry.specialty.toLowerCase().includes(specialty));
             })
