@@ -1,12 +1,13 @@
-import data from '@data/producers.json'
-import Cards from '@components/Cards'
+import GeneralCards from '@components/GeneralCards'
 
-const Producers = () => {
-
+const Producers = async () => {
+  const response = await fetch(process.env.PRODUCERS);
+  const sheetsData = await response.json();
+  const category = Object.keys(sheetsData)[0];
   return (
     <>
       <h1 className='text-2xl font-bold text-center'>Demo Producers</h1>
-      <Cards data={data}></Cards>
+      <GeneralCards data={sheetsData} category={category}></GeneralCards>
     </>
   )
 }

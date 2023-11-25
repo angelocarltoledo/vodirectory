@@ -13,21 +13,21 @@ const Nav = () => {
   return (
     <nav>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 text-zinc-200">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/">VODirectory</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/">VODirectory</Link>
             </div>
           </div>
           <div className="hidden lg:block">
-            <div className="ml-4 flex flex-wrap items-center space-x-4">
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/writers">Writers</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/mixers">Mixers</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/directors">Directors</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/producers">Demo Producers</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/education">Education</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/coaches">Coaches</Link>
-              <Link className="bg-gray-700 hover:bg-yellow-400 rounded-full p-3" href="/rosters">Rosters and Databases</Link>
+            <div className="ml-4 flex flex-wrap items-center gap-4">
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/writers">Writers</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/mixers">Mixers</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/directors">Directors</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/producers">Demo Producers</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/education">Education</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/coaches">Coaches</Link>
+              <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/rosters">Rosters and Databases</Link>
 
             </div>
           </div>
