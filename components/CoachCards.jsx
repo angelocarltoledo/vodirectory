@@ -31,24 +31,29 @@ const CoachCards = ({data, category}) => {
             className='flex-grow rounded-2xl p-2'
         />
 
-        <div className='flex flex-wrap justify-center gap-2'>
-            <span>Specialty:</span>
-            <select className='p-1' name="specialty" id="specialty" onChange={event => setSpecialty(event.target.value.toLowerCase())}>
-                <option value="">All</option>
-                {filterUniqueSpecialties(data).sort().map(entry => (
-                    <option key={entry} value={entry}>{entry}</option>
-                ))
-                }
-            </select>
-            
-            <span>Price:</span>
-            <select className='p-1' name="specialty" id="specialty" onChange={event => setOrder(event.target.value)}>
-                <option value="asc">Ascending</option>
-                <option value="desc">Descending</option>
-            </select>
-        </div>
+        <div className="flex flex-col gap-5">
+          <div className='flex flex-wrap gap-5 justify-center'>
+            <div className='flex gap-2'>
+              <span>Specialty:</span>
+              <select className='p-1' name="specialty" id="specialty" onChange={event => setSpecialty(event.target.value.toLowerCase())}>
+                  <option value="">All</option>
+                  {filterUniqueSpecialties(data).sort().map(entry => (
+                      <option key={entry} value={entry}>{entry}</option>
+                  ))
+                  }
+              </select>
+            </div>
+            <div className='flex gap-2'>
+              <span>Price:</span>
+              <select className='p-1' name="specialty" id="specialty" onChange={event => setOrder(event.target.value)}>
+                  <option value="asc">Ascending</option>
+                  <option value="desc">Descending</option>
+              </select>
+            </div>
+          </div>
 
-        <p>NOTE: All featured prices are for private one hour sessions. See individual notes for other services and prices.</p>
+          <p>NOTE: All featured prices are for private one hour sessions. See individual notes for other services and prices.</p>
+        </div>
 
         <div className="flex flex-wrap gap-5 justify-center">
             {orderedCoaches.map(entry => (
