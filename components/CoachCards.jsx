@@ -31,7 +31,7 @@ const CoachCards = ({data, category}) => {
             className='flex-grow rounded-2xl p-2'
         />
 
-        <div className='flex gap-2'>
+        <div className='flex flex-wrap justify-center gap-2'>
             <span>Specialty:</span>
             <select className='p-1' name="specialty" id="specialty" onChange={event => setSpecialty(event.target.value.toLowerCase())}>
                 <option value="">All</option>
