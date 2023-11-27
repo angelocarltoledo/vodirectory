@@ -55,9 +55,9 @@ const CoachCards = ({data, category}) => {
         <p>NOTE: All featured prices are for private one hour sessions. See individual notes for other services and prices.</p>
       </div>
 
-      <div className="flex flex-wrap w-full gap-5 justify-center">
+      <div className="flex flex-wrap w-fit gap-5 justify-center">
         {orderedCoaches.map(entry => (
-        <div key={entry.name} className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div key={entry.name} className="flex-grow p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{entry.name}</h5>
             {entry.twitter && 
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Twitter/X: {entry.twitter}</p>
