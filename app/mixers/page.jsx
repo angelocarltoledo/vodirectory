@@ -1,16 +1,15 @@
-import GeneralCards from '@components/GeneralCards'
+import GeneralCards from "@components/GeneralCards";
+import fetchData from "@utils/fetchData";
 
 const Mixers = async () => {
-  const response = await fetch(process.env.MIXERS, { cache: 'no-store' });
-  const sheetsData = await response.json();
-  const category = Object.keys(sheetsData)[0];
+  const [sheetsData, category] = await fetchData("MIXERS");
 
   return (
     <>
-      <h1 className='text-2xl font-bold text-center'>Mixers</h1>
+      <h1 className="text-2xl font-bold text-center">Mixers</h1>
       <GeneralCards data={sheetsData} category={category}></GeneralCards>
     </>
-  )
-}
+  );
+};
 
-export default Mixers
+export default Mixers;
