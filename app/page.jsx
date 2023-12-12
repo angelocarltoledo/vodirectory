@@ -1,19 +1,47 @@
-import Link from "next/link"
+import Link from "next/link";
+import resources from "@data/resources";
 
 const Home = () => {
-
   return (
     <>
-      <h1 className='text-2xl font-bold text-center'>Welcome to VODirectory</h1>
-      <p className='text-lg text-center pt-3'>This simple website aims to serve voice actors in the way that most, if not all, the resources they need will be here in this one place. I hope this accomplishes that for you today and improvements are sure to come little by little.  :)</p>
-      <div className="flex flex-col text-center text-lg">
-        <p><u>Acknowledgements and Resources</u></p>
-        <p>Belsheber Rusape — <Link href="https://docs.google.com/document/d/1QHAeH4gtx_vSz958HqpANEBJ7nJRWPsPXVatcdWbU7M/edit?usp=sharing" target='_blank' className='hover:text-teal-200'>Belsheber Rusape Voice Demo Script Commissions</Link></p>
-        <p>Sam Slade & Marcus Rothenberg — <Link href="https://docs.google.com/spreadsheets/d/17z2coJ5xRsIVz8lDvcln8fldxaat7YDnS0pOJ-SHxn4/edit?usp=sharing" target='_blank' className='hover:text-teal-200'>Rosters, Databases, and Where to Find Work!</Link></p>
-        <p>Jamie McKiernan — <Link href="https://docs.google.com/spreadsheets/d/1PxIHo3XbLVX4cVhQEMCGy_Y891wIzkIiQ413TLnWVy8/edit?usp=sharing" target='_blank' className='hover:text-teal-200'>Voice Acting Database Winter 2021</Link></p>
+      <h1 className="font-bold text-center text-[2rem]">
+        Welcome to VODirectory
+      </h1>
+      <p className="text-xl text-center pt-3">
+        This simple website aims to serve voice actors in the way that most, if
+        not all, the resources they need will be here in this one place. I hope
+        this accomplishes that for you today and improvements are sure to come
+        little by little. :)
+      </p>
+
+      <p className="text-[1.3rem]">
+        <u>Acknowledgements and Resources</u>
+      </p>
+
+      <div className="flex flex-wrap gap-5 justify-center">
+        {resources.map((entry) => (
+          <div
+            key={entry.title}
+            className="flex-grow p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {entry.title}
+            </h5>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              {entry.author}
+            </p>
+            <Link
+              href={entry.link}
+              target="_blank"
+              className="inline-flex entrys-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Go to Resource!
+            </Link>
+          </div>
+        ))}
       </div>
     </>
-    )
-}
+  );
+};
 
-export default Home
+export default Home;
