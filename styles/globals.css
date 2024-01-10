@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    scrollbar-color: var(--light) var(--dark);
+    scrollbar-color: #f3eaea #1e1d1d;
     scrollbar-width: thin;
 }
 
@@ -12,10 +12,10 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--dark); /* Background color of the scrollbar track */
+    background-color: var(#1e1d1d); /* Background color of the scrollbar track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--light); /* Color of the scrollbar thumb */
+    background-color: var(#f3eaea); /* Color of the scrollbar thumb */
     border-radius: 5px; /* Border radius of the scrollbar thumb */
 }

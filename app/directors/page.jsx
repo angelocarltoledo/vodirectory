@@ -1,4 +1,5 @@
 import GeneralCards from "@components/GeneralCards";
+import GeneralSuggestion from "@components/GeneralSuggestion";
 import fetchData from "@utils/fetchData";
 
 const Directors = async () => {
@@ -8,6 +9,7 @@ const Directors = async () => {
     <>
       <h1 className="text-2xl font-bold text-center">Directors</h1>
       <GeneralCards data={sheetsData} category={category}></GeneralCards>
+      <GeneralSuggestion category="Director"></GeneralSuggestion>
     </>
   );
 };

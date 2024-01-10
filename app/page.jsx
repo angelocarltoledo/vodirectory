@@ -11,7 +11,7 @@ const Home = () => {
         This simple website aims to serve voice actors in the way that most, if
         not all, the resources they need will be here in this one place. I hope
         this accomplishes that for you today and improvements are sure to come
-        little by little. :)
+        little by little. 😊
       </p>
 
       <p className="text-[1.3rem]">
