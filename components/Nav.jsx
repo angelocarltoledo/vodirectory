@@ -19,9 +19,9 @@ const Nav = () => {
             <div className="hidden lg:block flex-shrink-0">
               <Link className="object-contain" href="/">
                 <Image
-                  className="w-full"
                   alt="VODirectory logo"
                   src={mainlogo}
+                  width={125}
                 ></Image>
               </Link>
             </div>
@@ -69,7 +69,7 @@ const Nav = () => {
           </div>
           <div className="lg:hidden flex items-center">
             <button
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               onClick={toggleNav}
             >
               {isClick ? (
@@ -111,37 +111,37 @@ const Nav = () => {
         <div className="lg:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 -sm:px-3">
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/writers"
             >
               Writers
             </Link>
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/mixers"
             >
               Mixers
             </Link>
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/directors"
             >
               Directors
             </Link>
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/producers"
             >
               Producers
             </Link>
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/education"
             >
               Education
             </Link>
             <Link
-              className="pl-5 py-1 block hover:bg-yellow-400"
+              className="pl-5 py-1 block hover:bg-yellow-400 rounded-full"
               href="/coaches"
             >
               Coaches
