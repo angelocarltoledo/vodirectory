@@ -104,7 +104,7 @@ const CoachCards = ({ data, category }) => {
                   Specialty: {entry.specialty}
                 </p>
               )}
-              {entry.price !== "0" ? (
+              {entry.price !== 0 ? (
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   Price: ${entry.price}
                 </p>

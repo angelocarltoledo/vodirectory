@@ -5,6 +5,15 @@ import Link from "next/link";
 import { useState } from "react";
 import mainlogo from "@public/mainlogo.png";
 
+const list = [
+  "Writers",
+  "Mixers",
+  "Directors",
+  "Producers",
+  "Education",
+  "Coaches",
+];
+
 const Nav = () => {
   const [isClick, setisClick] = useState();
 
@@ -13,58 +22,29 @@ const Nav = () => {
   };
   return (
     <nav>
-      <div className="max-w-7xl mt-2 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mt-3 lg:mb-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 text-zinc-200">
           <div className="flex items-center">
-            <div className="hidden lg:block flex-shrink-0">
+            <div className="hidden lg:block">
               <Link className="object-contain" href="/">
                 <Image
                   alt="VODirectory logo"
                   src={mainlogo}
-                  width={125}
+                  width={120}
                 ></Image>
               </Link>
             </div>
           </div>
           <div className="hidden lg:block">
             <div className="ml-4 flex flex-wrap items-center gap-4">
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/writers"
-              >
-                Writers
-              </Link>
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/mixers"
-              >
-                Mixers
-              </Link>
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/directors"
-              >
-                Directors
-              </Link>
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/producers"
-              >
-                Demo Producers
-              </Link>
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/education"
-              >
-                Education
-              </Link>
-              <Link
-                className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
-                href="/coaches"
-              >
-                Coaches
-              </Link>
-              {/* <Link className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3" href="/rosters">Rosters and Databases</Link> */}
+              {list.map((entry) => (
+                <Link
+                  className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
+                  href={"/" + entry.toLowerCase()}
+                >
+                  {entry}
+                </Link>
+              ))}
             </div>
           </div>
           <div className="lg:hidden flex items-center">
