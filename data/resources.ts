@@ -1,4 +1,10 @@
-const resources = [
+interface Resources {
+  title: string;
+  author: string;
+  link: string;
+}
+
+const resources: Resources[] = [
   {
     title: "Belsheber Rusape Voice Demo Script Commissions",
     author: "Belsheber Rusape",
@@ -14,6 +20,6 @@ const resources = [
     author: "Jamie McKiernan",
     link: "https://docs.google.com/spreadsheets/d/1PxIHo3XbLVX4cVhQEMCGy_Y891wIzkIiQ413TLnWVy8/edit?usp=sharing",
   },
-];
+] as const;
 
 export default resources;

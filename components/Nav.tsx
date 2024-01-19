@@ -5,17 +5,17 @@ import Link from "next/link";
 import { useState } from "react";
 import mainlogo from "@public/mainlogo.png";
 
-const list = [
+const list: string[] = [
   "Writers",
   "Mixers",
   "Directors",
   "Producers",
   "Education",
   "Coaches",
-];
+] as const;
 
 const Nav = () => {
-  const [isClick, setisClick] = useState();
+  const [isClick, setisClick] = useState<Boolean>(false);
 
   const toggleNav = () => {
     setisClick(!isClick);
@@ -37,8 +37,9 @@ const Nav = () => {
           </div>
           <div className="hidden lg:block">
             <div className="ml-4 flex flex-wrap items-center gap-4">
-              {list.map((entry) => (
+              {list.map((entry, i) => (
                 <Link
+                  key={i}
                   className="bg-gray-700 hover:bg-yellow-400 hover:text-zinc-800 rounded-full p-3"
                   href={"/" + entry.toLowerCase()}
                 >

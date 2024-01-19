@@ -14,7 +14,7 @@ const GeneralSuggestion = ({ category }) => {
         <form action="#" className="space-y-8">
           <div>
             <label
-              for="name"
+              htmlFor="name"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               Your Name
@@ -29,7 +29,7 @@ const GeneralSuggestion = ({ category }) => {
           </div>
           <div>
             <label
-              for="subject"
+              htmlFor="subject"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               {category} Name
@@ -44,7 +44,7 @@ const GeneralSuggestion = ({ category }) => {
           </div>
           <div>
             <label
-              for="subject"
+              htmlFor="subject"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
             >
               {category} X/Twitter
@@ -59,7 +59,7 @@ const GeneralSuggestion = ({ category }) => {
           </div>
           <div>
             <label
-              for="url"
+              htmlFor="url"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
             >
               {category} Site
