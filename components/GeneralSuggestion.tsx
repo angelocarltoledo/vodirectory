@@ -1,6 +1,8 @@
-import React from "react";
+interface SuggestionProps {
+  category: string;
+}
 
-const GeneralSuggestion = ({ category }) => {
+const GeneralSuggestion = ({ category }: SuggestionProps) => {
   return (
     <section className="flex-grow p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const GeneralCards = ({ data, category }) => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState<String>("");
 
   return (
     <>

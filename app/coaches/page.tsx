@@ -6,7 +6,7 @@ const Coaches = async () => {
 
   return (
     <>
-      <h1 className="text-2xl font-bold text-center">Coaches</h1>
+      <h2 className="text-2xl font-bold text-center">Coaches</h2>
       <CoachCards data={sheetsData} category={category}></CoachCards>
     </>
   );

@@ -7,7 +7,7 @@ const Education = async () => {
 
   return (
     <>
-      <h1 className="text-2xl font-bold text-center">Education</h1>
+      <h2 className="text-2xl font-bold text-center">Education</h2>
       <GeneralCards data={sheetsData} category={category}></GeneralCards>
       <GeneralSuggestion category="Education"></GeneralSuggestion>
     </>

@@ -4,12 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 
 const CoachCards = ({ data, category }) => {
-  const [search, setSearch] = useState("");
-  const [specialty, setSpecialty] = useState("");
-  const [order, setOrder] = useState("asc");
-  const coaches = { ...data };
+  const [search, setSearch] = useState<String>("");
+  const [specialty, setSpecialty] = useState<String>("");
+  const [order, setOrder] = useState<String>("asc");
 
-  const orderedCoaches = coaches[category].filter((entry) => {
+  const orderedCoaches = data[category].filter((entry) => {
     return (
       (search.toLowerCase() === ""
         ? entry
